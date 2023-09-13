@@ -1,0 +1,108 @@
+/*start */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #444;
+}
+#container{
+    width: 80%;
+    margin: auto;
+}
+/*end of general document*/
+
+/*start of head*/
+.head h2{
+color: aliceblue;
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+font-family: 'Courier New', Courier, monospace;
+}
+.head h4{
+color: aliceblue;
+text-align: center;
+font-size: 20px;
+text-transform: uppercase;
+font-family: 'Courier New', Courier, monospace;
+}
+/*end of head*/
+
+
+
+
+
+
+
+/*start of inputs*/
+input{
+    width:100%;
+    padding: 2px;
+    padding-left: 6px;
+    background-color: #333;
+    outline: none;  
+    border: 0;
+    margin: 4px;
+    font-size: 30px;
+    border-radius: 20px;transition: 1.3s;
+}
+.atotal{
+    display: flex;
+}
+
+.atotal span{
+    background-color: red;
+    margin: 1px;
+    margin-left:6px;
+}
+button{
+    width: 100%;
+    background-color: rgb(51, 57, 114);
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 4px;
+}
+.bb{ 
+    display: inline-flex;
+    width: 100%;
+}
+
+input :hover{
+
+font-size: 60px;
+}
+/*end of inputs*/
+#deleteAll{
+    margin:20px 0px;
+}
+
+/*start of outputs*/
+table{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+th{
+    padding: 4px;
+    font-size: 20px;
+}
+td{
+    text-align: center;
+    color: aliceblue;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(51, 57, 114);
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 4px;
+}
+/*end of outputs*/
